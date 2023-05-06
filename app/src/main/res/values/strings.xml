@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FairPrice</string>
+    <string name="app_logo">App Logo</string>
+    <string name="welcome_pay_with_us">Welcome, pay with us</string>
+    <string name="payment_amount_hint">Enter payment amount</string>
+    <string name="email_hint">Enter email</string>
+    <string name="phone_number_hint">Enter phone number</string>
+    <string name="name_hint">Enter name</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_credit_card_details">Enter Credit Card Details</string>
+    <string name="card_number_hint">Card number</string>
+    <string name="expiry_date_label">Expiry date (MM/YY)</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="cvv_label">CVV</string>
+    <string name="cvv_hint">Enter CVV</string>
+    <string name="submit">Submit</string>
+    <string name="app_descriptiion">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</string>
+</resources>
