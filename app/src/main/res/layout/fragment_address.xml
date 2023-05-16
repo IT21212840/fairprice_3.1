@@ -85,6 +85,7 @@ tools:context=".homefragment.AddressFragment">
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
+
     <Button
         android:id="@+id/registarasseller"
         android:layout_width="wrap_content"
