@@ -65,7 +65,7 @@ class AddressFragment : Fragment() {
                 }
             })
 
-
+//delete function
         binding.dell.setOnClickListener {
             constants.database.child("user")
                 .child(sharedPreferences.getString("mobile", "").toString()).child("address")
@@ -86,20 +86,18 @@ class AddressFragment : Fragment() {
             val line2 = binding.line2.text.toString().trim()
             val postal = binding.postal.text.toString().trim()
             val city = binding.city.text.toString().trim()
-
+//backend validations
             if (line1.isEmpty() || line2.isEmpty() || postal.isEmpty() || city.isEmpty()){
                 Snackbar.make(parentLayout, "fill all fields", Snackbar.LENGTH_SHORT).show()
             } else if(postal.length != 5){
                 Snackbar.make(parentLayout, "check postal code", Snackbar.LENGTH_SHORT).show()
             } else {
-
+//update function
                 constants.database.child("user")
                     .child(sharedPreferences.getString("mobile", "").toString()).child("address")
                     .setValue(line1 + ",@#" + line2 + ",@#" + postal + ",@#" + city)
                     .addOnCompleteListener {
                         if (it.isSuccessful) {
-
-
                             Snackbar.make(parentLayout, "updated", Snackbar.LENGTH_SHORT).show()
 
                         } else {

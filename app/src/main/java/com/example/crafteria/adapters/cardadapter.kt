@@ -16,7 +16,7 @@ import com.example.crafteria.models.cardmodel
 import com.example.crafteria.models.subcatmodel
 import com.example.crafteria.updatecard
 
-  
+
 class cardadapter(private var items: ArrayList<cardmodel>, private var context: Context,private var data:subcatmodel,
                     private var key:ArrayList<String>)
     : RecyclerView.Adapter<cardadapter.ListItemViewHolder>(){
