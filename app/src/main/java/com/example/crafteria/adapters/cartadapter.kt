@@ -21,7 +21,7 @@ class cartadapter(private var items: ArrayList<subcatmodel>, private var context
     fun setfilteredlist(items: ArrayList<subcatmodel>){
         this.items = items
         notifyDataSetChanged()
-    }
+    }//
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListItemViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.cartrecyclerview, parent, false)
