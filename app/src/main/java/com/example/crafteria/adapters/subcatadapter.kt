@@ -19,7 +19,7 @@ class subcatadapter(private var items: ArrayList<subcatmodel>,private var contex
 
     fun setfilteredlist(items: ArrayList<subcatmodel>){
         this.items = items
-        notifyDataSetChanged()
+        notifyDataSetChanged() //
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListItemViewHolder {
