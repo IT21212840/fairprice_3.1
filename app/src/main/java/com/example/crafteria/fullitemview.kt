@@ -22,7 +22,7 @@ class FullItemView : AppCompatActivity() {
     private lateinit var parentLayout: View // Represents the root view of the activity's layout.
 
 
-    @SuppressLint("SuspiciousIndentation")
+    @SuppressLint("SuspiciousIndentation")//
     override fun onCreate(savedInstanceState: Bundle?) {
         // Call the superclass onCreate method to perform necessary initialization.
         super.onCreate(savedInstanceState)
