@@ -60,6 +60,7 @@
             android:textColorHint="@color/black"
             android:layout_height="wrap_content"
             android:padding="10sp"
+            android:inputType="textPersonName"
             android:background="@drawable/gradient"
             android:hint="@string/first_name"/>
 
@@ -71,6 +72,7 @@
             android:textColorHint="@color/black"
             android:layout_height="wrap_content"
             android:padding="10sp"
+            android:inputType="textPersonName"
             android:background="@drawable/gradient"
             android:hint="@string/last_name"/>
 

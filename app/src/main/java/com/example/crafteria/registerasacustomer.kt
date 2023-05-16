@@ -28,13 +28,15 @@ class Registarasaseller : AppCompatActivity() {
 
         binding.registarasseller.setOnClickListener{
 
-            // stroing data in variables
+            // stroing/insert data in variables
             val firstname = binding.registarasasellerfname.text.toString().trim()
             val lastname = binding.registarasasellerlname.text.toString().trim()
             val mobile = binding.registarasasellerno.text.toString().trim()
             val email = binding.registarasaselleremail.text.toString().trim()
             val password = binding.registarasasellerpassword.text.toString().trim()
             val confirmpass = binding.registarasasellerconpassword.text.toString().trim()
+
+            //backend validations for sign-up
 
             if (firstname.isEmpty() || lastname.isEmpty() || mobile.isEmpty() || email.isEmpty() ||
                 password.isEmpty() || confirmpass.isEmpty()){
