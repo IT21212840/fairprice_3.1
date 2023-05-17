@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fair_Price</string>
+    <string name="email_login">Log in</string>
+    <string name="email_mail">Email :</string>
+    <string name="login_password">Password :</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_reg">Registration</string>
+
+
+    <string name="usera_name">Name :</string>
+    <string name="usera_age">Age :</string>
+    <string name="usera_add">Address :</string>
+    <string name="usera_phne">Phone :</string>
+    <string name="usera_submit">Submit</string>
+    <string name="usera_profile">User Profile</string>
+</resources>

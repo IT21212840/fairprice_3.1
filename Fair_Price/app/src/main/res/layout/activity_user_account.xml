@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    tools:context=".UserAccountActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_profile_dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/user">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usera_profile"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:gravity="center"
+                >
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:text="@string/usera_name"
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/name_registration">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:text="@string/usera_age"
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/age_registration">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:text="@string/usera_add"
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:id="@+id/job_registration">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:text="@string/usera_add"
+                android:background="@drawable/edit_design"
+                android:padding="15dp"
+                android:id="@+id/registration_description">
+            </EditText>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/usera_submit"
+                android:background="@drawable/button_design"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_registration">
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
